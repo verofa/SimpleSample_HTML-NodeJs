@@ -5,6 +5,4 @@ npm-debug.log
 # Local
 *.env
 
-package-lock.json
-
 #images
