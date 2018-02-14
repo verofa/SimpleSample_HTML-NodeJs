@@ -4,7 +4,7 @@ In this sample we are going to create a simple application to build a project us
 
 ### Prerequisites
 
-To start with the exercice you need to have intalled/created the following components:
+To start the exercise you need to have installed/created the following components:
 
 1.- Email account (for linking it with Heroku account)  
 2.- Heroku account
@@ -14,19 +14,19 @@ To start with the exercice you need to have intalled/created the following compo
 4.- Heroku Command Line Interface (CLI)  
 5.- Node.js and npm  
 6.- Git bash  
-7a.- Powersheel or cmd (windowns Command Prompt) if you are using a windows platform  
-7b.- Terminal prompt id you are usign a Unix-like platform (MacOs or Linux)  
+7a.- Powershell or cmd (Microsoft Windows Command Prompt) if you are using a windows platform  
+7b.- Terminal prompt id you are using a Unix-like platform (MacOs or Linux)  
 8.- Simple Text editor (for instance, Notepad, Notepad ++)  
 
 
 ## How to do it ^
 
-1.- **Creating a email account**:  
+1.- **Creating an email account**:  
 As a suggestion you can create an [Gmail](https://en.wikipedia.org/wiki/Gmail) account that has a free basic service [here](https://accounts.google.com/SignUp), but feel free to create an email account in your favorite email service
 *If you already have an account that you can/want link with the Heroku account, this steps is an alternative one and you do need to create a new one.
 
 2.- **Creating an Heroku account**:  
-For creating an Heroku account you just need to have an email account and provide the necessary information as your name, country and the develpment language (in this case you have to chose node.js) [here](https://signup.heroku.com). 
+For creating an Heroku account you just need to have an email account and provide the necessary information as your name, country and the development language (in this case you have to chose node.js) [here](https://signup.heroku.com). 
 
 3.- **Installing the Package Manager**:  
 This step only apply if you are using a *MacOS* system since in a Linux platform normally the package manager is already install by default.  
