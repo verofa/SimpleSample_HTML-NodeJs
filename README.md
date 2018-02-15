@@ -1,6 +1,6 @@
 ## How to build a Simple Node.js application using a cloud platform as a Service solution (PaaS)
 
-In this sample we are going to create a simple application to build a project using a particular cloud solution called [Heroku (Saleforce)](https://www.heroku.com/) based on a platform as a services more commonly known as **PaaS**. 
+In this exercise we are going to create a simple web application using a particular cloud solution called [Heroku (Saleforce)](https://www.heroku.com/) that is based on a platform as a services more commonly known as **PaaS**. 
 
 ### Prerequisites
 
@@ -13,31 +13,31 @@ To start the exercise you need to have installed/created the following component
 3b.- Linux (Debian/Ubuntu based systems): apt-get/aptitude
 4.- Heroku Command Line Interface (CLI)  
 5.- Node.js and npm  
-6.- Git bash  
-7a.- Powershell or cmd (Microsoft Windows Command Prompt) if you are using a windows platform  
-7b.- Terminal prompt id you are using a Unix-like platform (MacOs or Linux)  
+6.- Git / Git Bash (Microsoft Windows)  
+7a.- Powershell or CMD (Microsoft Windows Command Prompt) if you are using a Microsoft Windows  
+7b.- Terminal prompt if you are using a Unix-like platform (MacOs or Linux)  
 8.- Simple Text editor (for instance, Notepad, Notepad ++)  
 
 
-## How to do it ^
+## How to ^
 
-1.- **Creating an email account**:  
+1.- **Create an email account**:  
 As a suggestion you can create an [Gmail](https://en.wikipedia.org/wiki/Gmail) account that has a free basic service [here](https://accounts.google.com/SignUp), but feel free to create an email account in your favorite email service
-*If you already have an account that you can/want link with the Heroku account, this steps is an alternative one and you do need to create a new one.
+*If you already have an account that you could/would like link with the Heroku account, this steps is an alternative one and you do need to create a new one.
 
-2.- **Creating an Heroku account**:  
-For creating an Heroku account you just need to have an email account and provide the necessary information as your name, country and the development language (in this case you have to chose node.js) [here](https://signup.heroku.com). 
+2.- **Create an Heroku account**:  
+For creating an Heroku account you just need to have an email account and provide the necessary information as your name, country and the development language (in this case you have to chose node.js since the exercise is based on this particular technology) [here](https://signup.heroku.com). 
 
-3.- **Installing the Package Manager**:  
-This step only apply if you are using a *MacOS* system since in a Linux platform normally the package manager is already install by default.  
+3.- **Install the Package Manager**:  
+This step only apply if you are using a *MacOS* system because in a Linux platform normally the package manager is already install by default.  
 To Install Homebrew, open the Terminal Command Line and run:
 
 ```javascript
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ``` 
 
-4.- **Installing Heroku Command Line Interface**:  
-Once you have the Heroku account created you have to install the Heroku Command Line tool for creating and managing Heroku applications from the command line / shell.
+4.- **Install Heroku Command Line Interface**:  
+Once you have the Heroku account created, you have to install the Heroku Command Line tool for creating and managing Heroku applications from the command line / shell.
   
 -  For **MacOs** open a terminal command line and run:  
 
@@ -51,7 +51,7 @@ brew install heroku/brew/heroku
 wget -qO- https://cli-assets.heroku.com/install-ubuntu.sh | sh
 ```
 
-5.- **Installing Node.js and npm**:  
+5.- **Install Node.js and npm**:  
 For the training purpose we are going to use **Node.js** as a program language and **npm** as the package manager that is used by **Node.js**.
 
 - For **Microsoft Windows** platform get the proper installer from https://nodejs.org/en/download/ . Normally the Windows Installer (.msi) 64-bit version
@@ -62,7 +62,7 @@ For the training purpose we are going to use **Node.js** as a program language a
 brew install node
 ```
 
-Also, as an alternative way you can get the proper installer as well from https://nodejs.org/en/download/ (macOS Installer (.pkg))
+*Also, as an alternative way you can get the proper installer as well from https://nodejs.org/en/download/ (macOS Installer (.pkg))
 
 - For **Debian/Ubuntu** platform open a terminal command line and run:
 
@@ -80,7 +80,50 @@ node -v
 npm -v
 ```
 
+6.- **Install Git / Git Bash (Microsoft Windows)**
 
+- For **Windows** download [Here](https://gitforwindows.org/) the latest installer. Once the file has been download successfully, you have to start the installation process configuring it with the default options.  
 
+- Confirm the installation was successful by typing from the Command Prompt (or Git Bash):
 
+```javascript
+git --version
+```
+ 
+- For **MacOS** using Homebrew, open a terminal command line and run:
+  
+```javascript
+brew install git
+```
 
+- Confirm the installation was successful by typing which:
+
+```javascript
+git --version
+```
+
+*As an alternative installation option you can get the  installer from [here](https://sourceforge.net/projects/git-osx-installer/files/
+)
+
+- For **Debian/Ubuntu** using apt-get, open a terminal command line and run:
+
+```javascript
+sudo apt-get update
+sudo apt-get install git
+```
+
+- Confirm the installation was successful by typing:
+
+```javascript
+git --version
+```
+
+If you would like to know more about how to use git [here you are a book's link](https://git-scm.com/book/en/v2) to understand everything about **git**. Enjoy it ;)!
+
+7.- **Install Powershell or CMD (Microsoft Windows Command Prompt) if you are using a Microsoft Windows or Terminal command line if you are using a Unix-like platform (MacOs or Linux)**  
+In most cases, you do not need to install anything since by default these applications are already installed .
+
+8.- **Install a simple text editor**  
+By default Windows, MacOs, and Linux systems have a default and basic text editor already installed, but most of them are not user friendly so as an alternative option (and because is one of the popular ones), you can install Sublime Text editor from  [here](https://www.sublimetext.com/3)
+
+Other options are: [Atom](https://atom.io/), [Visual Studio Code](https://code.visualstudio.com/download) or Brackets (you only need to have *one* of those or any other one). 
