@@ -16,7 +16,7 @@ To start the exercise you need to have installed/created the following component
 6.- Git / Git Bash (Microsoft Windows)  
 7a.- Powershell or CMD (Microsoft Windows Command Prompt) if you are using a Microsoft Windows  
 7b.- Terminal prompt if you are using a Unix-like platform (MacOs or Linux)  
-8.- Simple Text editor (for instance, Notepad, Notepad ++)  
+8.- Simple Text editor (for instance, Notepad, Notepad ++).
 
 
 ## How to ^
